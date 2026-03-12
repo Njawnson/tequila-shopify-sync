@@ -1,0 +1,26 @@
+name: Daily Product Sync
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Runs every day at 3am EST (8am UTC)
+  workflow_dispatch:       # Also allows manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run product sync
+        env:
+          SHOPIFY_STORE_HANDLE: ${{ secrets.SHOPIFY_STORE_HANDLE }}
+          SHOPIFY_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ACCESS_TOKEN }}
+          FEED_URL: ${{ secrets.FEED_URL }}
+        run: python scripts/sync_products.py
