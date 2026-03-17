@@ -1,22 +1,27 @@
 """
-TequilaLiquorStore.com — Daily Feed Converter
-----------------------------------------------
-Downloads the Google Shopping feed, converts all products
-to a Matrixify-compatible CSV, and commits it back to the repo.
+TequilaLiquorStore.com — Daily Feed to Matrixify CSV
+-----------------------------------------------------
+Downloads the Google Shopping feed, filters tequila-only products,
+and outputs a Matrixify-ready CSV for daily scheduled import.
 
-Matrixify then imports from the raw GitHub URL on a daily schedule.
-
-Environment variables (set as GitHub Secrets):
+Environment variables required (set as GitHub Secrets):
   FEED_URL   https://www.tequilaliquorstore.com/gmcfeed/google_feed.txt
+
+Output: output/matrixify_update.csv (~742 rows, well within Basic plan limit)
 """
 
 import csv
 import io
 import os
+import sys
 import urllib.request
 
-FEED_URL    = os.environ.get('FEED_URL', 'https://www.tequilaliquorstore.com/gmcfeed/google_feed.txt')
-OUTPUT_FILE = 'output/matrixify_update.csv'
+# ── Config ─────────────────────────────────────────────────────────────────────
+FEED_URL         = os.environ.get('FEED_URL', 'https://www.tequilaliquorstore.com/gmcfeed/google_feed.txt')
+TEQUILA_CATEGORY = 'Tequila'
+OUTPUT_FILE      = 'output/matrixify_update.csv'
+
+# ── Helpers ────────────────────────────────────────────────────────────────────
 
 def log(msg):
     print(msg, flush=True)
@@ -28,90 +33,96 @@ def download_feed(url):
     log(f"  Downloaded {len(content):,} bytes")
     return content
 
+def parse_feed(content):
+    reader = csv.DictReader(io.StringIO(content), delimiter='\t')
+    rows = list(reader)
+    log(f"  Total products in feed: {len(rows):,}")
+    return rows
+
+def filter_tequila(rows):
+    tequilas = [r for r in rows if TEQUILA_CATEGORY in r.get('google product category', '')]
+    log(f"  Tequila products: {len(tequilas):,}")
+    return tequilas
+
 def make_handle(title):
     handle = title.lower()
-    for ch in ['/', '\\', ' ', '"', "'", ',', '.', '(', ')', '&', '%', '#']:
+    for ch in ['/', '\\', ' ', '"', "'", ',', '.', '(', ')', '&', '%', '#', '+']:
         handle = handle.replace(ch, '-')
     while '--' in handle:
         handle = handle.replace('--', '-')
     return handle.strip('-')[:100]
 
-def get_tags(row):
-    tags = []
-    title = row['title'].lower()
-    category = row.get('google product category', '')
-    if 'Tequila' in category:
-        tags.append('tequila')
-        if 'extra anejo' in title or 'extra anejo' in title:
-            tags.append('extra-anejo')
-        elif 'anejo' in title or 'anejo' in title:
-            tags.append('anejo')
-        elif 'reposado' in title:
-            tags.append('reposado')
-        elif any(x in title for x in ['blanco', 'silver', 'plata', 'cristalino']):
-            tags.append('blanco')
-        if 'mezcal' in title:
-            tags.append('mezcal')
+def get_style_tags(title):
+    t = title.lower()
+    tags = ['tequila']
+    if 'mezcal' in t:
+        tags.append('mezcal')
+    if 'extra anejo' in t or 'extra añejo' in t:
+        tags.append('extra-anejo')
+    elif 'anejo' in t or 'añejo' in t:
+        tags.append('anejo')
+    elif 'reposado' in t:
+        tags.append('reposado')
+    elif any(x in t for x in ['blanco', 'silver', 'plata', 'cristalino']):
+        tags.append('blanco')
     return ', '.join(tags)
-
-def get_type(row):
-    category = row.get('google product category', '')
-    if 'Tequila' in category: return 'Tequila'
-    elif 'Whiskey' in category or 'Scotch' in category: return 'Whiskey'
-    elif 'Bourbon' in category: return 'Bourbon'
-    elif 'Wine' in category: return 'Wine'
-    elif 'Rum' in category: return 'Rum'
-    elif 'Vodka' in category: return 'Vodka'
-    elif 'Gin' in category: return 'Gin'
-    elif 'Brandy' in category: return 'Brandy'
-    elif 'Liqueur' in category: return 'Liqueur'
-    else: return 'Spirits'
 
 def parse_price(price_str):
     try:
-        return f"{float(price_str.replace(' USD', '').strip()):.2f}"
+        return float(price_str.replace(' USD', '').replace('$', '').strip())
     except:
         return ''
 
-def get_availability(row):
-    avail = row.get('availability', 'in stock').lower()
-    return 'TRUE' if 'in stock' in avail else 'FALSE'
+def get_published(availability):
+    return 'TRUE' if 'in stock' in availability.lower() else 'FALSE'
 
-def get_vendor(row):
-    brand = row.get('brand', '').strip()
-    if not brand and ' - ' in row['title']:
-        brand = row['title'].split(' - ')[0].strip()
-    return brand
+# ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
-    content = download_feed(FEED_URL)
-    reader = csv.DictReader(io.StringIO(content), delimiter='\t')
-    rows = list(reader)
-    log(f"  Total products in feed: {len(rows):,}")
+    log("=" * 60)
+    log("TequilaLiquorStore.com — Daily Feed Converter")
+    log("=" * 60)
 
-    results = []
-    for row in rows:
-        price = parse_price(row.get('price', ''))
-        if not price:
+    # Download and filter
+    content = download_feed(FEED_URL)
+    rows = parse_feed(content)
+    tequilas = filter_tequila(rows)
+
+    # Build Matrixify rows — only update price, availability, and tags
+    output_rows = []
+    for row in tequilas:
+        title = row.get('title', '').strip()
+        if not title:
             continue
-        results.append({
-            'Handle':        make_handle(row['title']),
-            'Title':         row['title'],
-            'Type':          get_type(row),
-            'Tags':          get_tags(row),
-            'Vendor':        get_vendor(row),
-            'Published':     get_availability(row),
-            'Variant Price': price,
-            'Image Src':     row.get('image link', ''),
+
+        price = parse_price(row.get('price', ''))
+        availability = row.get('availability', 'in stock')
+        brand = row.get('brand', '').strip()
+        image = row.get('image link', '').strip()
+
+        output_rows.append({
+            'Handle':        make_handle(title),
+            'Title':         title,
+            'Type':          'Tequila',
+            'Tags':          get_style_tags(title),
+            'Vendor':        brand if brand else 'TequilaLiquorStore.com',
+            'Published':     get_published(availability),
+            'Variant Price': f"{price:.2f}" if price else '',
+            'Image Src':     image,
         })
 
+    # Ensure output directory exists
     os.makedirs('output', exist_ok=True)
-    with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=['Handle','Title','Type','Tags','Vendor','Published','Variant Price','Image Src'])
-        writer.writeheader()
-        writer.writerows(results)
 
-    log(f"Done! {len(results):,} products written to {OUTPUT_FILE}")
+    # Write CSV
+    fieldnames = ['Handle', 'Title', 'Type', 'Tags', 'Vendor', 'Published', 'Variant Price', 'Image Src']
+    with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(output_rows)
+
+    log(f"\n✅ Done! {len(output_rows)} tequila products written to {OUTPUT_FILE}")
+    log("Matrixify will pick this up on its daily schedule.")
 
 if __name__ == '__main__':
     main()
