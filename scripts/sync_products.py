@@ -2,9 +2,12 @@
 TequilaLiquorStore.com — Daily Feed to Matrixify CSV
 -----------------------------------------------------
 Downloads the partner feed, filters tequila-only products,
-deduplicates by normalized title (keeps lowest price),
-extracts brand from title if vendor is missing,
-and outputs a Matrixify-ready CSV for daily scheduled import.
+deduplicates by normalized title with priority:
+  1. Has image + has description (best)
+  2. Has image, no description
+  3. Has description, no image
+  4. Neither (worst)
+Within same priority, keeps lowest price.
 
 Environment variables:
   FEED_URL   https://www.liquorstore-online.com/gmcfeed/shopify_feed_tls.csv
@@ -46,17 +49,14 @@ def build_known_brands(rows):
     return sorted(set(r['Vendor'].strip() for r in rows if r.get('Vendor','').strip()), key=len, reverse=True)
 
 def extract_brand(title, known_brands):
-    # Try: text before ' - ' dash
     if ' - ' in title:
         candidate = title.split(' - ')[0].strip()
         if len(candidate) > 1:
             return candidate
-    # Try: match known brand at start of title
     title_lower = title.lower()
     for brand in known_brands:
         if title_lower.startswith(brand.lower()):
             return brand
-    # Fallback: first two words
     words = title.split()
     return ' '.join(words[:2]) if len(words) >= 2 else words[0] if words else 'Unknown'
 
@@ -85,6 +85,18 @@ def get_style_tags(title):
 def get_published(status):
     return 'TRUE' if status.lower() == 'active' else 'FALSE'
 
+def priority(row):
+    has_image = bool(row.get('Image Src', '').strip())
+    has_desc = bool(row.get('Body HTML', '').strip())
+    if has_image and has_desc:
+        return 0
+    elif has_image:
+        return 1
+    elif has_desc:
+        return 2
+    else:
+        return 3
+
 def deduplicate(rows):
     seen = {}
     for row in rows:
@@ -93,18 +105,19 @@ def deduplicate(rows):
             price = float(row.get('Variant Price', '') or 9999)
         except:
             price = 9999
+
         if norm not in seen:
             seen[norm] = (row, price)
         else:
             existing_row, existing_price = seen[norm]
-            has_desc = bool(row.get('Body HTML', ''))
-            existing_has_desc = bool(existing_row.get('Body HTML', ''))
-            if has_desc and not existing_has_desc:
+            new_priority = priority(row)
+            existing_priority = priority(existing_row)
+
+            if new_priority < existing_priority:
                 seen[norm] = (row, price)
-            elif has_desc and existing_has_desc and price < existing_price:
+            elif new_priority == existing_priority and price < existing_price:
                 seen[norm] = (row, price)
-            elif not has_desc and not existing_has_desc and price < existing_price:
-                seen[norm] = (row, price)
+
     deduped = [r for r, p in seen.values()]
     log(f"  After deduplication: {len(deduped):,} products")
     return deduped
@@ -128,6 +141,7 @@ def main():
         if not handle:
             continue
 
+        image = row.get('Product image URL', '').strip()
         vendor = row.get('Vendor', '').strip()
         if not vendor:
             vendor = extract_brand(title, known_brands)
@@ -141,7 +155,7 @@ def main():
             'Vendor':        vendor,
             'Published':     get_published(row.get('Status', 'active')),
             'Variant Price': row.get('Price', '').strip(),
-            'Image Src':     row.get('Product image URL', '').strip(),
+            'Image Src':     image,
             'Variant SKU':   row.get('SKU', '').strip(),
         })
 
