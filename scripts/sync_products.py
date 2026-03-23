@@ -64,8 +64,10 @@ def normalize_title(t):
     t = t.lower().strip()
     t = re.sub(r'\s*[-–]\s*\d+(\.\d+)?\s*(ml|cl|l|oz)\b', '', t)
     t = re.sub(r'\s+\d+(\.\d+)?\s*(ml|cl|l|oz)\b', '', t)
+    t = re.sub(r'\b(tequila|mezcal|blanco|reposado|anejo|añejo|silver|plata|cristalino|organic|extra)\b', '', t)
     t = re.sub(r'\s+', ' ', t).strip()
-    return t
+    words = sorted(t.split())
+    return ' '.join(words)
 
 def get_style_tags(title):
     t = title.lower()
@@ -142,8 +144,6 @@ def main():
             continue
 
         image = row.get('Product image URL', '').strip()
-        if not image:
-            continue
         vendor = row.get('Vendor', '').strip()
         if not vendor:
             vendor = extract_brand(title, known_brands)
@@ -151,7 +151,6 @@ def main():
         output_rows.append({
             'Handle':        handle,
             'Title':         title,
-            'Body HTML':     row.get('Description', '').strip(),
             'Type':          'Tequila',
             'Tags':          get_style_tags(title),
             'Vendor':        vendor,
@@ -164,7 +163,7 @@ def main():
     output_rows = deduplicate(output_rows)
 
     os.makedirs('output', exist_ok=True)
-    fieldnames = ['Handle','Title','Body HTML','Type','Tags','Vendor','Published','Variant Price','Image Src','Variant SKU']
+    fieldnames = ['Handle','Title','Type','Tags','Vendor','Published','Variant Price','Image Src','Variant SKU']
     with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
