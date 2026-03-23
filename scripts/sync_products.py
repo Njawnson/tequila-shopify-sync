@@ -142,6 +142,8 @@ def main():
             continue
 
         image = row.get('Product image URL', '').strip()
+        if not image:
+            continue
         vendor = row.get('Vendor', '').strip()
         if not vendor:
             vendor = extract_brand(title, known_brands)
