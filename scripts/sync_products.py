@@ -3,11 +3,8 @@ TequilaLiquorStore.com — Daily Feed to Matrixify CSV
 -----------------------------------------------------
 Downloads the partner feed, filters tequila-only products,
 deduplicates by normalized title with priority:
-  1. Has image + has description (best)
-  2. Has image, no description
-  3. Has description, no image
-  4. Neither (worst)
-Within same priority, keeps lowest price.
+  1. Has image (required — products without images are skipped)
+  2. Within same priority, keeps lowest price
 
 Environment variables:
   FEED_URL   https://www.liquorstore-online.com/gmcfeed/shopify_feed_tls.csv
@@ -87,18 +84,6 @@ def get_style_tags(title):
 def get_published(status):
     return 'TRUE' if status.lower() == 'active' else 'FALSE'
 
-def priority(row):
-    has_image = bool(row.get('Image Src', '').strip())
-    has_desc = bool(row.get('Body HTML', '').strip())
-    if has_image and has_desc:
-        return 0
-    elif has_image:
-        return 1
-    elif has_desc:
-        return 2
-    else:
-        return 3
-
 def deduplicate(rows):
     seen = {}
     for row in rows:
@@ -112,12 +97,7 @@ def deduplicate(rows):
             seen[norm] = (row, price)
         else:
             existing_row, existing_price = seen[norm]
-            new_priority = priority(row)
-            existing_priority = priority(existing_row)
-
-            if new_priority < existing_priority:
-                seen[norm] = (row, price)
-            elif new_priority == existing_priority and price < existing_price:
+            if price < existing_price:
                 seen[norm] = (row, price)
 
     deduped = [r for r, p in seen.values()]
@@ -135,6 +115,8 @@ def main():
     known_brands = build_known_brands(tequilas)
 
     output_rows = []
+    skipped_no_image = 0
+
     for row in tequilas:
         title = row.get('Title', '').strip()
         if not title:
@@ -144,6 +126,10 @@ def main():
             continue
 
         image = row.get('Product image URL', '').strip()
+        if not image:
+            skipped_no_image += 1
+            continue
+
         vendor = row.get('Vendor', '').strip()
         if not vendor:
             vendor = extract_brand(title, known_brands)
@@ -159,6 +145,8 @@ def main():
             'Image Src':     image,
             'Variant SKU':   row.get('SKU', '').strip(),
         })
+
+    log(f"  Skipped (no image): {skipped_no_image}")
 
     output_rows = deduplicate(output_rows)
 
