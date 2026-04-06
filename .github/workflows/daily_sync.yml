@@ -1,32 +1,35 @@
-name: Daily Feed Converter
+name: Daily Feed Sync
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Every day at 1am EST (6am UTC)
-  workflow_dispatch:       # Also allows manual trigger from GitHub UI
+    - cron: '0 10 * * *'  # 3:00 AM PDT (10:00 UTC)
+  workflow_dispatch:
 
 jobs:
-  convert:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
-      - name: Run feed converter
+      - name: Run sync script
         env:
-          FEED_URL: ${{ secrets.FEED_URL }}
-        run: python scripts/sync_products.py
+          FEED_URL: https://www.liquorstore-online.com/gmcfeed/shopify_feed_tls.csv
+          SHOPIFY_STORE: sendliquorgifts-com-1156
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+        run: python scripts/sync.py
 
-      - name: Commit updated CSV to repo
+      - name: Commit output files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/matrixify_update.csv
-          git diff --staged --quiet || git commit -m "Daily feed update $(date +'%Y-%m-%d')"
+          git add output/
+          git diff --cached --quiet || git commit -m "Daily feed update $(date +'%Y-%m-%d')"
           git push
