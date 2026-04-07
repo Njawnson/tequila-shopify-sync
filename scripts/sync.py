@@ -34,6 +34,10 @@ OUTPUT_DIR     = 'output'
 UPDATE_FILE    = f'{OUTPUT_DIR}/matrixify_update.csv'
 UNPUBLISH_FILE = f'{OUTPUT_DIR}/unpublish.csv'
 
+# Products to never unpublish (e.g. gift cards not in the feed)
+EXCLUDE_PRODUCT_IDS = {'10331963949330'}
+
+
 def log(msg):
     print(msg, flush=True)
 
@@ -152,7 +156,10 @@ def get_all_shopify_handles(token):
 # ─── Unpublish ────────────────────────────────────────────────────────────────
 
 def build_unpublish_rows(feed_handles, shopify_handles):
-    missing = {h: pid for h, pid in shopify_handles.items() if h not in feed_handles}
+    missing = {
+        h: pid for h, pid in shopify_handles.items()
+        if h not in feed_handles and str(pid) not in EXCLUDE_PRODUCT_IDS
+    }
     log(f"  Products in Shopify but not in feed (to unpublish): {len(missing):,}")
     rows = [{'Handle': h, 'Published': 'FALSE'} for h in missing]
     return rows
