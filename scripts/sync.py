@@ -155,10 +155,15 @@ def get_all_shopify_handles(token):
 
 # ─── Unpublish ────────────────────────────────────────────────────────────────
 
+def normalize_handle(h):
+    return h.replace('.', '-')
+
 def build_unpublish_rows(feed_handles, shopify_handles):
+    # Normalize feed handles for comparison (dots -> dashes)
+    normalized_feed = {normalize_handle(h) for h in feed_handles}
     missing = {
         h: pid for h, pid in shopify_handles.items()
-        if h not in feed_handles and str(pid) not in EXCLUDE_PRODUCT_IDS
+        if normalize_handle(h) not in normalized_feed and str(pid) not in EXCLUDE_PRODUCT_IDS
     }
     log(f"  Products in Shopify but not in feed (to unpublish): {len(missing):,}")
     rows = [{'Handle': h, 'Published': 'FALSE'} for h in missing]
