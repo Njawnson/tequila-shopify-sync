@@ -75,6 +75,19 @@ def get_style_tags(title):
         tags.append('blanco')
     return ', '.join(tags)
 
+def extract_brand_from_title(title):
+    """Extract brand name from product title when vendor field is empty."""
+    # Try splitting on ' - ' first
+    if ' - ' in title:
+        candidate = title.split(' - ')[0].strip()
+        if len(candidate) > 1:
+            return candidate
+    # Otherwise take first 1-2 words
+    words = title.split()
+    if len(words) >= 2:
+        return ' '.join(words[:2])
+    return words[0] if words else ''
+
 def build_update_rows(tequilas):
     rows = []
     skipped = 0
@@ -88,12 +101,16 @@ def build_update_rows(tequilas):
             skipped += 1
             continue
 
+        vendor = row.get('Vendor', '').strip()
+        if not vendor:
+            vendor = extract_brand_from_title(title)
+
         rows.append({
             'Handle':        handle,
             'Title':         title,
             'Type':          'Tequila',
             'Tags':          get_style_tags(title),
-            'Vendor':        row.get('Vendor', '').strip(),
+            'Vendor':        vendor,
             'Published':     'TRUE',
             'Variant Price': price,
             'Image Src':     image,
