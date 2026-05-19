@@ -2,7 +2,7 @@ Handle,Title,Type,Tags,Vendor,Published,Variant Price,Image Src,Variant SKU
 100-anos-tequila-blanco,100 Anos Tequila Blanco 750ml,Tequila,"tequila, blanco",100 Anos,TRUE,42.49,https://www.liquorstore-online.com/product_images/p_253866.webp,933262 SG
 100-anos-tequila-blanco-mixto-750ml,100 Anos Tequila Blanco Mixto 750ml,Tequila,"tequila, blanco",100 Anos,TRUE,41.48,https://www.liquorstore-online.com/product_images/p_184118.webp,5cfa7c5f54f64026010dbd67
 100-anos-tequila-reposado-750ml,100 Anos Tequila Reposado 750ml,Tequila,"tequila, reposado",100 Años,TRUE,41.49,https://www.liquorstore-online.com/product_images/p_177806.webp,56f46c2c69702d7cba301300
-1800-anejo-tequila-70cl-38-abv,1800 - Anejo Tequila 70cl 38% ABV,Tequila,"tequila, anejo",1800,TRUE,188.99,https://www.liquorstore-online.com/product_images/p_136383.webp,12276
+1800-anejo-tequila-70cl-38-abv,1800 - Anejo Tequila 70cl 38% ABV,Tequila,"tequila, anejo",1800,TRUE,197.99,https://www.liquorstore-online.com/product_images/p_136383.webp,12276
 1800-anejo-tequila-70cl-38-abv-includes-branded-glass,1800 - Anejo Tequila 70cl 38% ABV (Includes Branded Glass),Tequila,"tequila, anejo",1800,TRUE,197.99,https://www.liquorstore-online.com/product_images/p_179683.webp,16276
 1800-coconut-infused-tequila-70cl-35-abv,1800 - Coconut Infused Tequila 70cl 35% ABV,Tequila,tequila,1800,TRUE,178.99,https://www.liquorstore-online.com/product_images/p_139753.webp,13152
 1800-coconut-infused-tequila-70cl-35-abv-includes-branded-glass,1800 - Coconut Infused Tequila 70cl 35% ABV (Includes Branded Glass),Tequila,tequila,1800,TRUE,178.99,https://www.liquorstore-online.com/product_images/p_179876.webp,16274
@@ -577,6 +577,7 @@ partida-anejo-tequila,Partida Anejo Tequila 750ml,Tequila,"tequila, anejo",Parti
 partida-blanco-tequila,Partida Blanco Tequila 750ml,Tequila,"tequila, blanco",Partida,TRUE,59.49,https://www.liquorstore-online.com/product_images/p_254216.webp,175931 eRNDC
 partida-tequila-anejo-750ml,Partida Tequila Anejo 750ml,Tequila,"tequila, anejo",Partida,TRUE,81.99,https://www.liquorstore-online.com/product_images/p_181057.webp,56dd1c5169702d1873200300
 partida-tequila-anejo-roble-fino-750ml,Partida Tequila Anejo Roble Fino  750ml,Tequila,"tequila, anejo",Partida,TRUE,175.49,https://www.liquorstore-online.com/product_images/p_253765.webp,5f9233193bde600e48dd2eab
+partida-tequila-blanco-750ml,Partida Tequila Blanco 750ml,Tequila,"tequila, blanco",Partida,TRUE,51.49,https://www.liquorstore-online.com/product_images/p_255123.webp,56c28e83756275139d8e0200
 partida-tequila-elegante-anejo-750ml,Partida Tequila Elegante Anejo  750ml,Tequila,"tequila, anejo",Tequila Partida,TRUE,456.99,https://www.liquorstore-online.com/product_images/p_183110.webp,57cbe9c769702d1d93eb5800
 partida-tequila-reposado-750ml,Partida Tequila Reposado 750ml,Tequila,"tequila, reposado",Partida,TRUE,64.49,https://www.liquorstore-online.com/product_images/p_177972.webp,56e7444569702d4758110000
 partida-tequila-reposado-cris-roble-fino-750ml,Partida Tequila Reposado Cris Roble Fino  750ml,Tequila,"tequila, reposado",Partida,TRUE,185.49,https://www.liquorstore-online.com/product_images/p_253762.webp,5f9233183bde600e48dd2e9c
@@ -649,7 +650,7 @@ san-matias-anejo-135-year,San Matias Anejo 135 Year 750ml,Tequila,"tequila, anej
 san-matias-anejo-cristalino,San Matias Anejo Cristalino 750ml,Tequila,"tequila, anejo",San Matias,TRUE,66.49,https://www.liquorstore-online.com/product_images/p_254458.webp,323872BW SIP
 san-matias-gran-reserva-anejo-tequila,San Matias Gran Reserva Anejo Tequila 750ml,Tequila,"tequila, anejo",San Matias,TRUE,80.99,https://www.liquorstore-online.com/product_images/p_254459.webp,323877BW SIP
 san-matias-tahona-anejo-tequila,San Matias Tahona Anejo Tequila 750ml,Tequila,"tequila, anejo",San Matias,TRUE,98.99,https://www.liquorstore-online.com/product_images/p_254460.webp,323878BW SIP
-sangre-de-vida-blanco-tequila-70cl-40-abv0,Sangre De Vida - Blanco Tequila 70cl 40% ABV0,Tequila,"tequila, blanco",Sangre De Vida,TRUE,214.99,https://www.liquorstore-online.com/product_images/p_252652.webp,24662
+sangre-de-vida-blanco-tequila-70cl-40-abv0,Sangre De Vida - Blanco Tequila 70cl 40% ABV0,Tequila,"tequila, blanco",Sangre De Vida,TRUE,220.99,https://www.liquorstore-online.com/product_images/p_252652.webp,24662
 sangre-de-vida-reposado-tequila-70cl-55-abv0,Sangre De Vida - Reposado Tequila 70cl 55% ABV0,Tequila,"tequila, reposado",Sangre De Vida,TRUE,253.99,https://www.liquorstore-online.com/product_images/p_252653.webp,24663
 sauza-hornitos-reposado-tequila-70cl-38-abv,Sauza - Hornitos Reposado  Tequila 70cl 38% ABV,Tequila,"tequila, reposado",Sauza,TRUE,175.99,https://www.liquorstore-online.com/product_images/p_186000.webp,12248
 sauza-conmemorativo-anejo-tequila-750ml,Sauza Conmemorativo Anejo Tequila 750ml,Tequila,"tequila, anejo",Sauza Conmemorativo,TRUE,45.48,https://www.liquorstore-online.com/product_images/p_183128.webp,57e7002169702d629738b500
