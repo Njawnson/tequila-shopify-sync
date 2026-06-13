@@ -21,7 +21,8 @@ Handle,Title,Type,Tags,Vendor,Published,Variant Price,Image Src,Variant SKU
 1800-reposado-high-proof-tequila-375ml,1800 Reposado High Proof Tequila 375ml,Tequila,"tequila, reposado",1800,TRUE,43.89,https://www.liquorstore-online.com/product_images/p_252192.webp,68a8cbc0aeed44529ccb3511
 1800-reposado-tequila-1l,1800 Reposado Tequila 1L,Tequila,"tequila, reposado",1800 Tequila,TRUE,65.89,https://www.liquorstore-online.com/product_images/p_184828.webp,56eba9ca69702d5654fd2c00
 1800-silver-1l,1800 Silver 1L,Tequila,"tequila, blanco",1800 Silver,TRUE,63.89,https://www.liquorstore-online.com/product_images/p_181694.webp,56f4625269702d7cba010b00
-1800-silver-tequila-750ml,1800 Silver Tequila 750ml,Tequila,"tequila, blanco",1800 Tequila,TRUE,66.89,https://www.liquorstore-online.com/product_images/p_184832.png,56f468cd69702d7cba731000
+1800-silver-tequila-750ml,1800 Silver Tequila 750ml,Tequila,"tequila, blanco",1800 Tequila,TRUE,66.89,https://www.liquorstore-online.com/product_images/p_184832.webp,56f468cd69702d7cba731000
+1800-tequila-anejo-750ml,1800 Tequila Anejo 750ml,Tequila,"tequila, anejo",1800,TRUE,84.99,https://www.liquorstore-online.com/product_images/p_255541.webp,570d685569702d1ad36a4e00
 1800-tequila-blanco-1.75l,1800 Tequila Blanco 1.75L,Tequila,"tequila, blanco",1800,TRUE,69.89,https://www.liquorstore-online.com/product_images/p_177030.webp,610d503633583468f1109bc3
 1800-tequila-blanco-200ml,1800 Tequila Blanco 200ml,Tequila,"tequila, blanco",1800,TRUE,34.89,https://www.liquorstore-online.com/product_images/p_184824.webp,610d535633583468f110e002
 1800-tequila-blanco-375ml,1800 Tequila Blanco 375ml,Tequila,"tequila, blanco",1800,TRUE,42.89,https://www.liquorstore-online.com/product_images/p_188683.webp,610d518333583468f110b317
@@ -35,10 +36,12 @@ Handle,Title,Type,Tags,Vendor,Published,Variant Price,Image Src,Variant SKU
 1800-tequila-cristalino-1.75l,1800 Tequila Cristalino 1.75L,Tequila,"tequila, blanco",1800,TRUE,157.49,https://www.liquorstore-online.com/product_images/p_181457.webp,5ff0ec6cbbcada679e96d509
 1800-tequila-cristalino-750ml,1800 Tequila Cristalino 750ml,Tequila,"tequila, blanco",1800,TRUE,67.88,https://www.liquorstore-online.com/product_images/p_181603.webp,5d7fefdbf0e71a7396b22e99
 1800-tequila-reposado-1.75l,1800 Tequila Reposado 1.75L,Tequila,"tequila, reposado",1800,TRUE,71.89,https://www.liquorstore-online.com/product_images/p_178459.webp,610c15917226c1699afb16f1
+1800-tequila-reposado-1l,1800 Tequila Reposado 1L,Tequila,"tequila, reposado",1800,TRUE,74.89,https://www.liquorstore-online.com/product_images/p_255633.webp,610c14db7226c1699afb040d
 1800-tequila-reposado-200ml,1800 Tequila Reposado 200ml,Tequila,"tequila, reposado",1800,TRUE,34.89,https://www.liquorstore-online.com/product_images/p_180287.webp,610c16607226c1699afb2991
 1800-tequila-reposado-375ml,1800 Tequila Reposado 375ml,Tequila,"tequila, reposado",1800,TRUE,42.88,https://www.liquorstore-online.com/product_images/p_252577.webp,610c13d87226c1699afaf0b2
 1800-tequila-reposado-750ml,1800 Tequila Reposado 750ml,Tequila,"tequila, reposado",1800,TRUE,61.89,https://www.liquorstore-online.com/product_images/p_177805.webp,565e030b69702d7bed190000
 1800-the-ultimate-margarita-mango-ready-to-drink-cocktail-1.75l,1800 The Ultimate Margarita Mango Ready to Drink Cocktail 1.75L,Tequila,tequila,1800,TRUE,49.89,https://www.liquorstore-online.com/product_images/p_181210.webp,5c5b848dcea37f2f624a0f53
+1800-the-ultimate-margarita-peach-cocktail-1.75l,1800 The Ultimate Margarita Peach Cocktail 1.75L,Tequila,tequila,1800,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_255542.webp,5865426fbfb24106844d2d29
 1921-cream-tequila-750ml,1921 Cream Tequila 750ml,Tequila,tequila,1921 Cream,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_177459.webp,59653b8a355d0935c14d7565
 1921-reposado-tequila-750ml,1921 Reposado Tequila 750ml,Tequila,"tequila, reposado",1921 Reposado,TRUE,67.88,https://www.liquorstore-online.com/product_images/p_176935.webp,56c2740d75627570b00e0300
 1921-tequila-anejo-750ml,1921 Tequila Anejo 750ml,Tequila,"tequila, anejo",1921 Tequila,TRUE,93.98,https://www.liquorstore-online.com/product_images/p_185237.webp,56c2741075627570b00f0300
@@ -55,7 +58,7 @@ Handle,Title,Type,Tags,Vendor,Published,Variant Price,Image Src,Variant SKU
 adictivo-anejo-black,Adictivo Anejo Black 750ml,Tequila,"tequila, anejo",Adictivo,TRUE,123.99,https://www.liquorstore-online.com/product_images/p_254326.webp,9714584 BKTU
 adictivo-anejo-tequila-750ml,Adictivo Anejo Tequila 750ml,Tequila,"tequila, anejo",Adictivo Tequila,TRUE,103.99,https://www.liquorstore-online.com/product_images/p_185004.webp,5b6db9d58f587645dac90a69
 adictivo-doble-reposado-750ml,Adictivo Doble Reposado 750ml,Tequila,"tequila, reposado",Adictivo Tequila,TRUE,90.99,https://www.liquorstore-online.com/product_images/p_185009.webp,5b6db9d78f587645dac90a7b
-adictivo-tequila-black-edition-extra-anejo-1.75-liter,Adictivo Tequila Black Edition Extra Anejo 1.75 Liter,Tequila,"tequila, extra-anejo",Adictivo,TRUE,288.49,https://www.liquorstore-online.com/product_images/p_253798.webp,9715085 BKTU
+adictivo-tequila-black-edition-extra-anejo-1.75-liter,Adictivo Tequila Black Edition Extra Anejo 1.75 Liter,Tequila,"tequila, extra-anejo",Adictivo,TRUE,255.99,https://www.liquorstore-online.com/product_images/p_253798.webp,9715085 BKTU
 adictivo-tequila-doble-reposado,Adictivo Tequila Doble Reposado 750ml,Tequila,"tequila, reposado",Adictivo,TRUE,96.99,https://www.liquorstore-online.com/product_images/p_253799.webp,9714587 BKTU
 adictivo-tequila-extra-anejo-750ml,Adictivo Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Adictivo Tequila,TRUE,159.49,https://www.liquorstore-online.com/product_images/p_185012.webp,5b6db9d78f587645dac90a84
 adictivo-tequila-extra-anejo,Adictivo Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Adictivo,TRUE,133.99,https://www.liquorstore-online.com/product_images/p_255163.webp,9714585 BKTU
@@ -93,10 +96,6 @@ butterfly-cannon-the-winged-king-reposado-tequila-750ml,"Butterfly Cannon ""The 
 buzzballz-tequila-rita-biggie-cocktail-175cl-13.5-abv-1.75-litre-magnum,BuzzBallz - Tequila Rita 'Biggie' Cocktail 175cl 13.5% ABV (1.75 Litre Magnum),Tequila,tequila,BuzzBallz,TRUE,132.99,https://www.liquorstore-online.com/product_images/p_252369.webp,23906
 buzzballz-tequila-rita-biggie-cocktail-175cl-13.5-abv-1.75-litre-magnum-includes-beach-ball-sun-visor,BuzzBallz - Tequila Rita 'Biggie' Cocktail 175cl 13.5% ABV (1.75 Litre Magnum)- (Includes Beach Ball & Sun Visor),Tequila,tequila,BuzzBallz,TRUE,132.99,https://www.liquorstore-online.com/product_images/p_253006.webp,25042
 buzzballz-tequila-rita-cocktail-20cl-13.5-abv,BuzzBallz - Tequila Rita Cocktail 20cl 13.5% ABV,Tequila,tequila,BuzzBallz,TRUE,99.99,https://www.liquorstore-online.com/product_images/p_188609.webp,18190
-buzzballz-tequila-rita-cocktail-20cl-x-12-13.5-abv-12-x-20cl,BuzzBallz - Tequila Rita Cocktail 20cl x 12 13.5% ABV (12 x 20cl),Tequila,tequila,BuzzBallz,TRUE,179.99,https://www.liquorstore-online.com/product_images/p_249320.jpg,23948
-buzzballz-tequila-rita-cocktail-20cl-x-12-13.5-abv-12-x-20cl-includes-beach-ball-sun-visor,BuzzBallz - Tequila Rita Cocktail 20cl x 12 13.5% ABV (12 x 20cl)- (Includes Beach Ball & Sun Visor),Tequila,tequila,BuzzBallz,TRUE,180.99,https://www.liquorstore-online.com/product_images/p_252558.webp,24609
-buzzballz-tequila-rita-cocktail-20cl-x-24-13.5-abv-24-x-20cl,BuzzBallz - Tequila Rita Cocktail 20cl x 24 13.5% ABV (24 x 20cl),Tequila,tequila,BuzzBallz,TRUE,256.99,https://www.liquorstore-online.com/product_images/p_249325.jpg,23965
-buzzballz-tequila-rita-cocktail-20cl-x-3-13.5-abv-3-x-20cl,BuzzBallz - Tequila Rita Cocktail 20cl x 3 13.5% ABV (3 x 20cl),Tequila,tequila,BuzzBallz,TRUE,108.99,https://www.liquorstore-online.com/product_images/p_249332.jpg,23972
 buzzballz-cocktails-tequila-rita-24-pack,BuzzBallz Cocktails Tequila `Rita - 24 Pack 200ml,Tequila,tequila,Buzzballz,TRUE,113.99,https://www.liquorstore-online.com/product_images/p_254750.webp,65344 SIP
 cabo-wabo-tequila-anejo-750ml,Cabo Wabo Tequila Anejo 750ml,Tequila,"tequila, anejo",Cabo Wabo,TRUE,65.89,https://www.liquorstore-online.com/product_images/p_181802.webp,5670426c756275441d850000
 cabo-wabo-tequila-blanco-750ml,Cabo Wabo Tequila Blanco 750ml,Tequila,"tequila, blanco",Cabo Wabo,TRUE,62.88,https://www.liquorstore-online.com/product_images/p_186482.webp,56c28fba756275139df70200
@@ -196,6 +195,7 @@ chinaco-blanco-tequila-750ml,Chinaco Blanco Tequila 750ml,Tequila,"tequila, blan
 chivas-regal-13-year-old-extra-tequila-cask-blended-scotch-whisky-70cl-40-abv,Chivas Regal - 13 year old Extra Tequila Cask Blended Scotch Whisky 70cl 40% ABV,Tequila,tequila,Chivas Regal,TRUE,175.99,https://www.liquorstore-online.com/product_images/p_202225.webp,18622
 cierto-tequila-anejo-private-collection,Cierto Tequila Anejo Private Collection 750ml,Tequila,"tequila, anejo",Cierto,TRUE,123.99,https://www.liquorstore-online.com/product_images/p_254205.webp,578759 SG
 cierto-tequila-blanco-private-collection,Cierto Tequila Blanco Private Collection 750ml,Tequila,"tequila, blanco",Cierto,TRUE,71.89,https://www.liquorstore-online.com/product_images/p_255318.webp,578757 SG
+cierto-tequila-private-collection-reposado-750ml,Cierto Tequila Private Collection Reposado 750ml,Tequila,"tequila, reposado",Cierto Tequila,TRUE,158.49,https://www.liquorstore-online.com/product_images/p_255481.webp,63d1bf01c17aba3cb2da2738
 cierto-tequila-reposado-private-collection,Cierto Tequila Reposado Private Collection 750ml,Tequila,"tequila, reposado",Cierto,TRUE,175.49,https://www.liquorstore-online.com/product_images/p_254202.webp,578760 SG
 cincoro-anejo-tequila-70cl-40-abv-michael-jordan,Cincoro - Anejo Tequila 70cl 40% ABV (Michael Jordan),Tequila,"tequila, anejo",Cincoro,TRUE,362.99,https://www.liquorstore-online.com/product_images/p_228998.webp,21585
 cincoro-blanco-tequila-70cl-40-abv-michael-jordan,Cincoro - Blanco Tequila 70cl 40% ABV (Michael Jordan),Tequila,"tequila, blanco",Cincoro,TRUE,247.99,https://www.liquorstore-online.com/product_images/p_228996.webp,21583
@@ -278,10 +278,11 @@ don-julio-70-cristalino-anejo-tequila-70cl-35-abv,Don Julio - 70 Cristalino Anej
 don-julio-alma-miel-joven-tequila-75cl-40-abv,Don Julio - Alma Miel Joven Tequila 75cl 40% ABV,Tequila,tequila,Don Julio,TRUE,349.99,https://www.liquorstore-online.com/product_images/p_253680.webp,25354
 don-julio-anejo-tequila-70cl-38-abv,Don Julio - Anejo Tequila 70cl 38% ABV,Tequila,"tequila, anejo",Don Julio,TRUE,205.99,https://www.liquorstore-online.com/product_images/p_136512.webp,11994
 don-julio-blanco-tequila-70cl-38-abv,Don Julio - Blanco Tequila 70cl 38% ABV,Tequila,"tequila, blanco",Don Julio,TRUE,193.99,https://www.liquorstore-online.com/product_images/p_248894.webp,11995
+don-julio-fifa-world-cup-2026-edition-1942-small-batch-anejo-tequila-5cl-38-abv-miniature,Don Julio - FIFA World Cup 2026 Edition 1942 Small Batch Anejo Tequila 5cl 38% ABV Miniature,Tequila,"tequila, anejo",Don Julio,TRUE,131.99,https://www.liquorstore-online.com/product_images/p_255404.webp,25700
+don-julio-fifa-world-cup-2026-edition-1942-small-batch-anejo-tequila-5cl-x-10-38-abv-miniatures,Don Julio - FIFA World Cup 2026 Edition 1942 Small Batch Anejo Tequila 5cl x 10 38% ABV Miniatures,Tequila,"tequila, anejo",Don Julio,TRUE,665.99,https://www.liquorstore-online.com/product_images/p_258841.webp,25790
+don-julio-fifa-world-cup-2026-edition-1942-small-batch-anejo-tequila-70cl-38-abv,Don Julio - FIFA World Cup 2026 Edition 1942 Small Batch Anejo Tequila 70cl 38% ABV,Tequila,"tequila, anejo",Don Julio,TRUE,685.99,https://www.liquorstore-online.com/product_images/p_255403.webp,25699
 don-julio-primavera-reposado-limited-edition-tequila-75cl-40-abv,Don Julio - Primavera Reposado Limited Edition Tequila 75cl 40% ABV,Tequila,"tequila, reposado",Don Julio,TRUE,336.99,https://www.liquorstore-online.com/product_images/p_231462.webp,14518
 don-julio-reposado-tequila-70cl-38-abv,Don Julio - Reposado Tequila 70cl 38% ABV,Tequila,"tequila, reposado",Don Julio,TRUE,201.99,https://www.liquorstore-online.com/product_images/p_248895.webp,11996
-don-julio-world-cup-limited-edition-1942-small-batch-anejo-tequila-5cl-38-abv-miniature,Don Julio - World Cup Limited Edition - 1942 Small Batch Anejo Tequila 5cl 38% ABV Miniature,Tequila,"tequila, anejo",Don Julio,TRUE,131.99,https://www.liquorstore-online.com/product_images/p_255404.webp,25700
-don-julio-world-cup-limited-edition-1942-small-batch-anejo-tequila-70cl-38-abv,Don Julio - World Cup Limited Edition - 1942 Small Batch Anejo Tequila 70cl 38% ABV,Tequila,"tequila, anejo",Don Julio,TRUE,685.99,https://www.liquorstore-online.com/product_images/p_255403.webp,25699
 don-julio-1942-375ml,Don Julio 1942 375ml,Tequila,tequila,Don Julio,TRUE,118.99,https://www.liquorstore-online.com/product_images/p_221686.webp,65c50850ee599a3f3b0b6c48
 don-julio-1942-50ml,Don Julio 1942 50ml,Tequila,tequila,Don Julio,TRUE,39.89,https://www.liquorstore-online.com/product_images/p_230377.webp,662a7d8e02584860f41270e3
 don-julio-1942-anejo-tequila-1.75l,Don Julio 1942 Anejo Tequila 1.75L,Tequila,"tequila, anejo",Don Julio,TRUE,467.99,https://www.liquorstore-online.com/product_images/p_181187.webp,58654427bfb24106844d2dfc
@@ -316,12 +317,14 @@ don-julio-anejo-tequila-750ml,Don Julio Anejo Tequila 750ml,Tequila,"tequila, an
 don-julio-anejo-tequila,Don Julio Anejo Tequila 750ml,Tequila,"tequila, anejo",Don Julio,TRUE,111.99,https://www.liquorstore-online.com/product_images/p_253836.webp,973347 SG
 don-julio-blanco-tequila-1.75l,Don Julio Blanco Tequila 1.75L,Tequila,"tequila, blanco",Don Julio,TRUE,123.99,https://www.liquorstore-online.com/product_images/p_177687.webp,570d64d469702d1ad3374b00
 don-julio-blanco-tequila-375ml,Don Julio Blanco Tequila 375ml,Tequila,"tequila, blanco",Don Julio,TRUE,47.89,https://www.liquorstore-online.com/product_images/p_181146.webp,564bd7c669702d5e6e1d0000
+don-julio-blanco-tequila-500ml,Don Julio Blanco Tequila 500ml,Tequila,"tequila, blanco",Don Julio,TRUE,70.89,https://www.liquorstore-online.com/product_images/p_255644.webp,57178a7d69702d2500111200
 don-julio-blanco-tequila-750ml,Don Julio Blanco Tequila 750ml,Tequila,"tequila, blanco",Don Julio,TRUE,69.89,https://www.liquorstore-online.com/product_images/p_177138.webp,565e82257562756b813f0000
 don-julio-reposado-tequila-1.75l,Don Julio Reposado Tequila 1.75L,Tequila,"tequila, reposado",Don Julio,TRUE,133.99,https://www.liquorstore-online.com/product_images/p_177879.webp,57aa3db769702d1fad58a101
 don-julio-reposado-tequila-750ml,Don Julio Reposado Tequila 750ml,Tequila,"tequila, reposado",Don Julio,TRUE,74.88,https://www.liquorstore-online.com/product_images/p_180579.webp,567041d8756275441d560000
 don-julio-rosado-tequila-reposado-750ml,Don Julio Rosado Tequila Reposado 750ml,Tequila,"tequila, reposado",Don Julio,TRUE,165.46,https://www.liquorstore-online.com/product_images/p_186484.webp,639384c58bb7e35ffe3a1ce7
-don-julio-tequila-500ml,Don Julio Tequila 500ml,Tequila,tequila,Don Julio,TRUE,213.99,https://www.liquorstore-online.com/product_images/p_222306.png,660c682f7ff43c65a0ca2609
+don-julio-tequila-500ml,Don Julio Tequila 500ml,Tequila,tequila,Don Julio,TRUE,213.99,https://www.liquorstore-online.com/product_images/p_222306.webp,660c682f7ff43c65a0ca2609
 don-julio-tequila-reposado-375ml,Don Julio Tequila Reposado 375ml,Tequila,"tequila, reposado",Don Julio,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_202416.webp,564bd7c669702d5e6e1e0000
+don-julio-tequila-reposado-500ml,Don Julio Tequila Reposado 500ml,Tequila,"tequila, reposado",Don Julio,TRUE,84.99,https://www.liquorstore-online.com/product_images/p_255457.webp,6080c0ee970e450f47adf4da
 don-julio-tequila-reposado-rosado,Don Julio Tequila Reposado Rosado 750ml,Tequila,"tequila, reposado",Don Julio,TRUE,255.99,https://www.liquorstore-online.com/product_images/p_254002.webp,577090 SG
 don-julio-ultima-reserva-750ml,Don Julio Ultima Reserva 750ml,Tequila,tequila,Don Julio,TRUE,377.90,https://www.liquorstore-online.com/product_images/p_213087.webp,611d7afe90656c31efae12f3
 don-pilar-tequila-extra-anejo,Don Pilar Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Don Pilar Tequila,TRUE,245.99,https://www.liquorstore-online.com/product_images/p_254331.webp,9704753 BKTU
@@ -356,6 +359,7 @@ el-tesoro-extra-anejo-tequila-750ml,El Tesoro Extra Anejo Tequila 750ml,Tequila,
 el-tesoro-reposado-tequila-750ml,El Tesoro Reposado Tequila 750ml,Tequila,"tequila, reposado",El Tesoro,TRUE,88.99,https://www.liquorstore-online.com/product_images/p_178487.webp,56f45fc369702d7cbada0800
 el-tesoro-tequila-anejo,El Tesoro Tequila Anejo 750ml,Tequila,"tequila, anejo",El Tesoro,TRUE,113.99,https://www.liquorstore-online.com/product_images/p_253960.webp,911821 SG
 el-toro-gold-1l,El Toro Gold 1L,Tequila,tequila,El Toro,TRUE,37.89,https://www.liquorstore-online.com/product_images/p_200817.webp,5f6baa010b2eb86f88f2c2d6
+enemigo-blanco-750ml,Enemigo Blanco 750ml,Tequila,"tequila, blanco",Enemigo Blanco,TRUE,96.99,https://www.liquorstore-online.com/product_images/p_255611.webp,68646d8da1b75c4c4c937e8e
 espolon-blanco-tequila-70cl-40-abv,Espolon - Blanco Tequila 70cl 40% ABV,Tequila,"tequila, blanco",Espolon,TRUE,139.99,https://www.liquorstore-online.com/product_images/p_221754.webp,20653
 espolon-reposado-tequila-70cl-40-abv,Espolon - Reposado Tequila 70cl 40% ABV,Tequila,"tequila, reposado",Espolon,TRUE,175.99,https://www.liquorstore-online.com/product_images/p_221755.webp,20654
 espolon-blanco-tequila-375ml,Espolon Blanco Tequila 375ml,Tequila,"tequila, blanco",Espolon,TRUE,41.89,https://www.liquorstore-online.com/product_images/p_221936.webp,5e87aaaaea28aa41536fe16a
@@ -373,6 +377,7 @@ espolon-tequila-reposado-200ml,Espolon Tequila Reposado 200ml,Tequila,"tequila, 
 etereo-extra-anejo-tequila-70cl-40-abv,Etereo - Extra Anejo Tequila 70cl 40% ABV,Tequila,"tequila, extra-anejo",Etereo,TRUE,273.99,https://www.liquorstore-online.com/product_images/p_247625.webp,22757
 etereo-plata-tequila-70cl-40-abv,Etereo - Plata Tequila 70cl 40% ABV,Tequila,"tequila, blanco",Etereo,TRUE,139.99,https://www.liquorstore-online.com/product_images/p_247623.webp,22753
 etereo-reposado-tequila-70cl-40-abv,Etereo - Reposado Tequila 70cl 40% ABV,Tequila,"tequila, reposado",Etereo,TRUE,201.99,https://www.liquorstore-online.com/product_images/p_247624.webp,22754
+excellia-blanco-tequila-jalisco-mexico-750ml,Excellia Blanco Tequila Jalisco Mexico 750ml,Tequila,"tequila, blanco",Excellia Blanco,TRUE,98.99,https://www.liquorstore-online.com/product_images/p_255581.webp,565e88567562750ebd560000
 exotico-blanco-tequila-1l,Exotico Blanco Tequila 1L,Tequila,"tequila, blanco",Exotico Blanco,TRUE,47.89,https://www.liquorstore-online.com/product_images/p_178611.webp,58a747f401ff95307e9d607b
 exotico-reposado-tequila-1.75l,Exotico Reposado Tequila 1.75L,Tequila,"tequila, reposado",Exotico Reposado,TRUE,70.89,https://www.liquorstore-online.com/product_images/p_184037.webp,5a1a8f0661df8817a4ed9ee1
 exotico-reposado-tequila-1l,Exotico Reposado Tequila 1L,Tequila,"tequila, reposado",Exotico Reposado,TRUE,48.88,https://www.liquorstore-online.com/product_images/p_178593.webp,58a747f501ff95307e9d607d
@@ -403,6 +408,7 @@ glen-moray-warehouse-1-tequila-finish-cask-strength-speyside-single-malt-scotch-
 gran-centenario-anejo-tequila-70cl-38-abv,Gran Centenario - Anejo Tequila 70cl 38% ABV,Tequila,"tequila, anejo",Gran Centenario,TRUE,207.99,https://www.liquorstore-online.com/product_images/p_135108.webp,12287
 gran-centenario-anejo-tequila-1.75l,Gran Centenario Anejo Tequila 1.75L,Tequila,"tequila, anejo",Gran Centenario,TRUE,119.99,https://www.liquorstore-online.com/product_images/p_183613.webp,6220d54173f89075d52af7ab
 gran-centenario-anejo-tequila-750ml,Gran Centenario Anejo Tequila 750ml,Tequila,"tequila, anejo",Gran Centenario,TRUE,66.89,https://www.liquorstore-online.com/product_images/p_177877.webp,570d623669702d1ad3964800
+gran-centenario-anejo-tequila-750ml,Gran Centenario Anejo Tequila 750ml,Tequila,"tequila, anejo",Gran Centenario,TRUE,73.89,https://www.liquorstore-online.com/product_images/p_255447.webp,57aa37a669702d628d531c01
 gran-centenario-leyenda-tequila-extra-anejo-750ml,Gran Centenario Leyenda Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Gran Centenario,TRUE,180.48,https://www.liquorstore-online.com/product_images/p_177784.webp,5b48b8b08f5876246e3c4926
 gran-centenario-reposado-tequila-750ml,Gran Centenario Reposado Tequila 750ml,Tequila,"tequila, reposado",Gran Centenario,TRUE,58.88,https://www.liquorstore-online.com/product_images/p_181157.webp,56f4716b69702d7cba9e1700
 gran-centenario-reposado-world-cup-special-edition-tequila,Gran Centenario Reposado World Cup Special Edition Tequila 750ml,Tequila,"tequila, reposado",Gran Centenario,TRUE,59.89,https://www.liquorstore-online.com/product_images/p_255023.webp,GCWorldCup
@@ -475,11 +481,11 @@ jose-cuervo-devils-reserve-tequila,Jose Cuervo Devil’s Reserve Tequila 750ml,T
 jose-cuervo-especial-gold-tequila-1.75l,Jose Cuervo Especial Gold Tequila 1.75L,Tequila,tequila,Jose Cuervo,TRUE,64.89,https://www.liquorstore-online.com/product_images/p_177002.webp,56cab7847562752ed5731700
 jose-cuervo-especial-gold-tequila-200ml,Jose Cuervo Especial Gold Tequila 200ml,Tequila,tequila,Jose Cuervo,TRUE,32.89,https://www.liquorstore-online.com/product_images/p_180336.webp,56c337ba69702d27ed830c00
 jose-cuervo-especial-gold-tequila-375ml,Jose Cuervo Especial Gold Tequila 375ml,Tequila,tequila,Jose Cuervo,TRUE,39.89,https://www.liquorstore-online.com/product_images/p_186431.webp,56cab7a37562752ed5771700
-jose-cuervo-especial-gold-tequila-500ml,Jose Cuervo Especial Gold Tequila 500ml,Tequila,tequila,Jose Cuervo,TRUE,43.89,https://www.liquorstore-online.com/product_images/p_180588.jpg,56c337ba69702d27ed850c00
+jose-cuervo-especial-gold-tequila-500ml,Jose Cuervo Especial Gold Tequila 500ml,Tequila,tequila,Jose Cuervo,TRUE,43.89,https://www.liquorstore-online.com/product_images/p_180588.webp,56c337ba69702d27ed850c00
 jose-cuervo-especial-gold-tequila-750ml,Jose Cuervo Especial Gold Tequila 750ml,Tequila,tequila,Jose Cuervo,TRUE,46.89,https://www.liquorstore-online.com/product_images/p_176847.webp,56c337ba69702d27ed7f0c00
 jose-cuervo-especial-silver-tequila-1.75l,Jose Cuervo Especial Silver Tequila 1.75L,Tequila,"tequila, blanco",Jose Cuervo,TRUE,64.89,https://www.liquorstore-online.com/product_images/p_176728.webp,56cab76f7562752ed5701700
 jose-cuervo-especial-silver-tequila-1l,Jose Cuervo Especial Silver Tequila 1L,Tequila,"tequila, blanco",Jose Cuervo,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_177585.webp,56c337b969702d27ed7e0c00
-jose-cuervo-especial-silver-tequila-200ml,Jose Cuervo Especial Silver Tequila 200ml,Tequila,"tequila, blanco",Jose Cuervo,TRUE,33.89,https://www.liquorstore-online.com/product_images/p_180256.png,56c337ba69702d27ed840c00
+jose-cuervo-especial-silver-tequila-200ml,Jose Cuervo Especial Silver Tequila 200ml,Tequila,"tequila, blanco",Jose Cuervo,TRUE,33.89,https://www.liquorstore-online.com/product_images/p_180256.webp,56c337ba69702d27ed840c00
 jose-cuervo-especial-silver-tequila-375ml,Jose Cuervo Especial Silver Tequila 375ml,Tequila,"tequila, blanco",Jose Cuervo,TRUE,38.89,https://www.liquorstore-online.com/product_images/p_188774.webp,56c337ba69702d27ed810c00
 jose-cuervo-especial-silver-tequila-750ml,Jose Cuervo Especial Silver Tequila 750ml,Tequila,"tequila, blanco",Jose Cuervo,TRUE,46.89,https://www.liquorstore-online.com/product_images/p_177790.webp,56c337ba69702d27ed800c00
 jose-cuervo-gold-tequila-1l,Jose Cuervo Gold Tequila 1L,Tequila,tequila,Jose Cuervo,TRUE,53.89,https://www.liquorstore-online.com/product_images/p_183418.webp,5521cefb6561310003b30300
@@ -487,6 +493,7 @@ jose-cuervo-margarita-salt,Jose Cuervo Margarita Salt 6Oz,Tequila,tequila,Jose C
 jose-cuervo-reserva-de-la-familia-cristalino-anejo-tequila,Jose Cuervo Reserva de la Familia Cristalino Anejo Tequila 750ml,Tequila,"tequila, anejo",Jose Cuervo,TRUE,175.49,https://www.liquorstore-online.com/product_images/p_254612.webp,473308 eRNDC
 jose-cuervo-reserva-de-la-familia-extra-anejo-tequila,Jose Cuervo Reserva de la Familia Extra Anejo Tequila 750ml,Tequila,"tequila, extra-anejo",Jose Cuervo,TRUE,235.99,https://www.liquorstore-online.com/product_images/p_253864.webp,487318 eRNDC
 jose-cuervo-tradicional-cristalino-tequila-750ml,Jose Cuervo Tradicional Cristalino Tequila 750ml,Tequila,"tequila, blanco",Jose Cuervo,TRUE,50.89,https://www.liquorstore-online.com/product_images/p_181828.webp,60a6c5a9bee735547a90d17b
+jose-cuervo-tradicional-silver-1.75l,Jose Cuervo Tradicional Silver 1.75L,Tequila,"tequila, blanco",Jose Cuervo,TRUE,88.99,https://www.liquorstore-online.com/product_images/p_255599.webp,599c48f44bda77214d307f3b
 jose-cuervo-tradicional-tequila-plata,Jose Cuervo Tradicional Tequila Plata 750ml,Tequila,"tequila, blanco",Jose Cuervo,TRUE,44.89,https://www.liquorstore-online.com/product_images/p_254851.webp,811538011426
 juarez-tequila-gold-1l,Juarez Tequila Gold 1L,Tequila,tequila,Juarez,TRUE,39.89,https://www.liquorstore-online.com/product_images/p_184866.webp,5736649269702d4aeb741000
 juarez-tequila-silver-1.75l,Juarez Tequila Silver 1.75L,Tequila,"tequila, blanco",Juarez Tequila,TRUE,52.88,https://www.liquorstore-online.com/product_images/p_176926.webp,57aa350469702d628de00e01
@@ -515,6 +522,7 @@ lobos-1707-joven-blanco-tequila-70cl-40-abv-lebron-james,Lobos 1707 - Joven Blan
 lobos-1707-reposado-tequila-70cl-40-abv-lebron-james,Lobos 1707 - Reposado Tequila 70cl 40% ABV (LeBron James),Tequila,"tequila, reposado",Lobos 1707,TRUE,207.99,https://www.liquorstore-online.com/product_images/p_222192.webp,20865
 lobos-1707-tequila-anejo,Lobos 1707 Tequila Anejo 700ml,Tequila,"tequila, anejo",Lobos 1707,TRUE,159.49,https://www.liquorstore-online.com/product_images/p_254351.webp,585934 SG
 lobos-1707-tequila-extra-anejo-750ml,Lobos 1707 Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Lobos 1707 Tequila,TRUE,152.49,https://www.liquorstore-online.com/product_images/p_186292.webp,5fc51b9af50db0286914e982
+lobos-1707-tequila-joven-375ml,Lobos 1707 Tequila Joven  375ml,Tequila,tequila,Lobos 1707 Tequila,TRUE,47.89,https://www.liquorstore-online.com/product_images/p_255504.webp,639cd61fa6e3b434389a43fd
 lobos-1707-tequila-reposado-750ml,Lobos 1707 Tequila Reposado 750ml,Tequila,"tequila, reposado",Lobos 1707 Tequila,TRUE,64.89,https://www.liquorstore-online.com/product_images/p_186468.webp,60897512f5c7e90ccea5a0ab
 los-sundays-tequila-blanco,Los Sundays Tequila Blanco 750ml,Tequila,"tequila, blanco",Los Sundays,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_254204.webp,953912 SG
 lunazul-anejo-tequila-750ml,Lunazul Anejo Tequila 750ml,Tequila,"tequila, anejo",Lunazul,TRUE,59.88,https://www.liquorstore-online.com/product_images/p_184489.webp,59109d9b78c81a10ce522256
@@ -542,6 +550,7 @@ mijenta-reposado-100-agave-tequila-70cl-40-abv-glass-pack,Mijenta - Reposado 100
 mijenta-blanco-tequila-750ml,Mijenta Blanco Tequila 750ml,Tequila,"tequila, blanco",Mijenta Blanco,TRUE,70.89,https://www.liquorstore-online.com/product_images/p_213146.webp,5f5a9817cb47b674a5638cc7
 mijenta-tequila-anejo-750ml,Mijenta Tequila Anejo 750ml,Tequila,"tequila, anejo",Mijenta,TRUE,175.49,https://www.liquorstore-online.com/product_images/p_213213.webp,62d97a681f994c650cffb3ea
 mijenta-tequila-reposado-750ml,Mijenta Tequila Reposado 750ml,Tequila,"tequila, reposado",Mijenta,TRUE,93.99,https://www.liquorstore-online.com/product_images/p_213150.webp,5ff75cc646fc381f3975e32e
+milagro-anejo-tequila-200ml,Milagro Anejo Tequila 200ml,Tequila,"tequila, anejo",Milagro,TRUE,40.89,https://www.liquorstore-online.com/product_images/p_255487.webp,67a43d84c978cc268ea50682
 milagro-anejo-tequila-750ml,Milagro Anejo Tequila 750ml,Tequila,"tequila, anejo",Milagro,TRUE,72.88,https://www.liquorstore-online.com/product_images/p_183374.webp,56caca2375627527c4c00000
 milagro-reposado-tequila-1.75l,Milagro Reposado Tequila 1.75L,Tequila,"tequila, reposado",Milagro,TRUE,85.99,https://www.liquorstore-online.com/product_images/p_202093.webp,58c465b353e66549911e9efb
 milagro-reposado-tequila,Milagro Reposado Tequila 750ml,Tequila,"tequila, reposado",Milagro,TRUE,59.89,https://www.liquorstore-online.com/product_images/p_254213.webp,190948 eRNDC
@@ -563,7 +572,7 @@ olmeca-altos-plata-tequila-1.75l,Olmeca Altos Plata Tequila 1.75L,Tequila,"tequi
 olmeca-altos-plata-tequila-750ml,Olmeca Altos Plata Tequila 750ml,Tequila,"tequila, blanco",Olmeca Altos,TRUE,55.89,https://www.liquorstore-online.com/product_images/p_181193.webp,56c28cf2756275139d070200
 olmeca-altos-reposado-tequila-750ml,Olmeca Altos Reposado Tequila 750ml,Tequila,"tequila, reposado",Altos Tequila,TRUE,59.89,https://www.liquorstore-online.com/product_images/p_229366.webp,56c28cea756275139d040200
 olmeca-tezon-reposado-tequila-75cl-40-abv0,Olmeca Tezon - Reposado Tequila 75cl 40% ABV0,Tequila,"tequila, reposado",Olmeca Tezon,TRUE,188.99,https://www.liquorstore-online.com/product_images/p_252792.webp,24831
-on-the-rocks-hornitos-margarita-750ml,On the Rocks Hornitos Margarita 750ml,Tequila,tequila,On The Rocks,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_183649.png,62e9a6fcc6ed455e5e378715
+on-the-rocks-hornitos-margarita-750ml,On the Rocks Hornitos Margarita 750ml,Tequila,tequila,On The Rocks,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_183649.webp,62e9a6fcc6ed455e5e378715
 on-the-rocks-jalapeno-pineapple-margarita-375ml,On The Rocks Jalapeno Pineapple Margarita 375ml,Tequila,tequila,On The Rocks,TRUE,37.89,https://www.liquorstore-online.com/product_images/p_177887.webp,5c9bac7a04687a2113ca4d39
 orendain-tequila-reposado,Orendain Tequila Reposado 750ml,Tequila,"tequila, reposado",Orendain,TRUE,47.89,https://www.liquorstore-online.com/product_images/p_254196.webp,512187 SG
 otaca-plata-tequila,OTACA Plata Tequila 750ml,Tequila,"tequila, blanco",Otaca,TRUE,110.99,https://www.liquorstore-online.com/product_images/p_253921.webp,OTACA
@@ -653,6 +662,7 @@ san-matias-tahona-anejo-tequila,San Matias Tahona Anejo Tequila 750ml,Tequila,"t
 sangre-de-vida-blanco-tequila-70cl-40-abv0,Sangre De Vida - Blanco Tequila 70cl 40% ABV0,Tequila,"tequila, blanco",Sangre De Vida,TRUE,220.99,https://www.liquorstore-online.com/product_images/p_252652.webp,24662
 sauza-hornitos-reposado-tequila-70cl-38-abv,Sauza - Hornitos Reposado  Tequila 70cl 38% ABV,Tequila,"tequila, reposado",Sauza,TRUE,175.99,https://www.liquorstore-online.com/product_images/p_186000.webp,12248
 sauza-conmemorativo-anejo-tequila-750ml,Sauza Conmemorativo Anejo Tequila 750ml,Tequila,"tequila, anejo",Sauza Conmemorativo,TRUE,50.88,https://www.liquorstore-online.com/product_images/p_183128.webp,57e7002169702d629738b500
+sauza-silver-375ml,Sauza Silver 375ml,Tequila,"tequila, blanco",Sauza Silver,TRUE,39.89,https://www.liquorstore-online.com/product_images/p_255701.webp,56ebafb969702d5654043400
 sauza-silver-tequila-1l,Sauza Silver Tequila 1L,Tequila,"tequila, blanco",Hacienda,TRUE,50.89,https://www.liquorstore-online.com/product_images/p_182285.webp,56c3370169702d27ed530100
 sauza-tequila-extra-anejo-la-perseverencia-150-aniversario-edicion-especial,Sauza Tequila Extra Anejo La Perseverencia 150 Aniversario Edicion Especial 750ml,Tequila,"tequila, extra-anejo",Sauza,TRUE,255.99,https://www.liquorstore-online.com/product_images/p_254553.webp,606115 SG
 sauza-tres-generaciones-anejo-tequila-750ml,Sauza Tres Generaciones Anejo Tequila 750ml,Tequila,"tequila, anejo",Tres Generaciones,TRUE,74.88,https://www.liquorstore-online.com/product_images/p_186504.webp,56cad31d75627527c4c60100
