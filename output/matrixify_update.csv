@@ -70,6 +70,7 @@ Handle,Title,Type,Tags,Vendor,Published,Variant Price,Image Src,Variant SKU
 818-tequila-reposado-750ml,818 Tequila Reposado 750ml,Tequila,"tequila, reposado",818,TRUE,56.89,https://www.liquorstore-online.com/product_images/p_248989.webp,60cbe2667636385d292f935a
 adictivo-anejo-tequila-750ml,Adictivo Anejo Tequila 750ml,Tequila,"tequila, anejo",Adictivo Tequila,TRUE,103.99,https://www.liquorstore-online.com/product_images/p_185004.webp,5b6db9d58f587645dac90a69
 adictivo-doble-reposado-750ml,Adictivo Doble Reposado 750ml,Tequila,"tequila, reposado",Adictivo Tequila,TRUE,90.99,https://www.liquorstore-online.com/product_images/p_185009.webp,5b6db9d78f587645dac90a7b
+adictivo-tequila-anejo,Adictivo Tequila Anejo 750ml,Tequila,"tequila, anejo",Adictivo,TRUE,98.99,https://www.liquorstore-online.com/product_images/p_259284.webp,9714583 BKTU
 adictivo-tequila-anejo-ceramic-blue,Adictivo Tequila Anejo Ceramic Blue 750ml,Tequila,"tequila, anejo",Adictivo,TRUE,133.99,https://www.liquorstore-online.com/product_images/p_254650.webp,9733824 BKTU
 adictivo-tequila-black-edition-extra-anejo-1.75-liter,Adictivo Tequila Black Edition Extra Anejo 1.75 Liter,Tequila,"tequila, extra-anejo",Adictivo,TRUE,255.99,https://www.liquorstore-online.com/product_images/p_253798.webp,9715085 BKTU
 adictivo-tequila-doble-reposado,Adictivo Tequila Doble Reposado 750ml,Tequila,"tequila, reposado",Adictivo,TRUE,96.99,https://www.liquorstore-online.com/product_images/p_253799.webp,9714587 BKTU
@@ -130,7 +131,7 @@ calirosa-rosa-blanco-750ml,Calirosa Rosa Blanco 750ml,Tequila,"tequila, blanco",
 calirosa-tequila-reposado,Calirosa Tequila Reposado 750ml,Tequila,"tequila, reposado",Calirosa,TRUE,64.89,https://www.liquorstore-online.com/product_images/p_258917.webp,580657 SG
 calle-23-tequilla-blanco-750ml,Calle 23 Tequilla Blanco 750ml,Tequila,"tequila, blanco",Calle 23,TRUE,68.83,https://www.liquorstore-online.com/product_images/p_186241.webp,569df90269702d4e1c890000
 campari-cask-tales-tequila-cask-finish-bitter-100cl-25-abv,Campari - Cask Tales - Tequila Cask Finish Bitter 100cl 25% ABV,Tequila,tequila,Campari,TRUE,247.99,https://www.liquorstore-online.com/product_images/p_226877.webp,21137
-campo-azul-gran-classico-blanco-1l,Campo Azul Gran Classico Blanco 1L,Tequila,"tequila, blanco",Campo Azul,TRUE,44.88,https://www.liquorstore-online.com/product_images/p_202230.webp,597f6393d05b430690f75a2a
+campo-azul-gran-clasico-blanco-tequila-1l,Campo Azul Gran Clasico Blanco Tequila 1L,Tequila,"tequila, blanco",Campo Azul,TRUE,44.88,https://www.liquorstore-online.com/product_images/p_202230.webp,597f6393d05b430690f75a2a
 campo-bravo-plata-tequila-600ml,Campo Bravo Plata Tequila 600ml,Tequila,"tequila, blanco",Campo Bravo,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_257676.webp,60d60c6594ac75482eaae649
 campo-bravo-reposado-tequila-1.75l,Campo Bravo Reposado Tequila 1.75L,Tequila,"tequila, reposado",Campo Bravo,TRUE,74.89,https://www.liquorstore-online.com/product_images/p_257175.webp,66df7afdd667153dac4a2ac4
 campo-bravo-reposado-tequila-600ml,Campo Bravo Reposado Tequila 600ml,Tequila,"tequila, reposado",Campo Bravo,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_256467.webp,60de068a36748f28831bc0fa
@@ -157,7 +158,6 @@ casa-dragones-reposado-mizunara-finish-tequila-70cl-40-abv,Casa Dragones - Repos
 casa-dragones-joven-personalized-750ml,Casa Dragones Joven Personalized 750ml,Tequila,tequila,Tequila Casa Dragones,TRUE,437.99,https://www.liquorstore-online.com/product_images/p_183273.webp,56c2769e75627570b0f90300
 casa-dragones-tequila-blanco-750ml,Casa Dragones Tequila Blanco 750ml,Tequila,"tequila, blanco",Casa Dragones,TRUE,109.98,https://www.liquorstore-online.com/product_images/p_177599.webp,56c2958b756275139d0b0500
 casa-dragones-tequila-blanco,Casa Dragones Tequila Blanco 750ml,Tequila,"tequila, blanco",Casa Dragones,TRUE,123.99,https://www.liquorstore-online.com/product_images/p_254210.webp,360265 SG
-casa-dragones-x-karol-g-200-copas-cristalino-tequila,Casa Dragones X Karol G '200 Copas' Cristalino Tequila,Tequila,"tequila, blanco",Casa Dragones,TRUE,155.49,https://www.liquorstore-online.com/product_images/p_255347.webp,CASADRAGON
 casa-lotos-sotol-blanco-750ml,Casa Lotos Sotol Blanco 750ml,Tequila,"tequila, blanco",Casa Lotos,TRUE,74.89,https://www.liquorstore-online.com/product_images/p_252578.webp,65c3af657bd3eb75d922b6f5
 casa-noble-anejo-750ml-750ml,Casa Noble Anejo 750ml 750ml,Tequila,"tequila, anejo",Casa Noble,TRUE,90.99,https://www.liquorstore-online.com/product_images/p_226924.webp,57aa30f669702d628d2af400
 casa-noble-blanco-tequila-750ml,Casa Noble Blanco Tequila 750ml,Tequila,"tequila, blanco",Casa Noble,TRUE,69.89,https://www.liquorstore-online.com/product_images/p_219541.webp,56c2725575627570b0770200
@@ -231,7 +231,6 @@ chile-pepper-red-green-agave-tequila-750ml,Chile Pepper Red Green Agave Tequila 
 chinaco-blanco-tequila-750ml,Chinaco Blanco Tequila 750ml,Tequila,"tequila, blanco",Chinaco Blanco,TRUE,71.88,https://www.liquorstore-online.com/product_images/p_185538.webp,6205e048ceac001f31b26c2d
 chivas-regal-13-year-old-extra-tequila-cask-blended-scotch-whisky-70cl-40-abv,Chivas Regal - 13 year old Extra Tequila Cask Blended Scotch Whisky 70cl 40% ABV,Tequila,tequila,Chivas Regal,TRUE,175.99,https://www.liquorstore-online.com/product_images/p_202225.webp,18622
 cierto-tequila-anejo-private-collection,Cierto Tequila Anejo Private Collection 750ml,Tequila,"tequila, anejo",Cierto,TRUE,123.99,https://www.liquorstore-online.com/product_images/p_254205.webp,578759 SG
-cierto-tequila-blanco-private-collection,Cierto Tequila Blanco Private Collection 750ml,Tequila,"tequila, blanco",Cierto,TRUE,71.89,https://www.liquorstore-online.com/product_images/p_255318.webp,578757 SG
 cierto-tequila-private-collection-blanco-750ml,Cierto Tequila Private Collection Blanco 750ml,Tequila,"tequila, blanco",Cierto Tequila,TRUE,104.99,https://www.liquorstore-online.com/product_images/p_258188.webp,63d1be62e0401405bdbab4a2
 cierto-tequila-private-collection-extra-anejo-750ml,Cierto Tequila Private Collection Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Cierto Tequila,TRUE,299.49,https://www.liquorstore-online.com/product_images/p_258677.webp,63dc141990e61f441a632259
 cierto-tequila-private-collection-reposado-750ml,Cierto Tequila Private Collection Reposado 750ml,Tequila,"tequila, reposado",Cierto Tequila,TRUE,158.49,https://www.liquorstore-online.com/product_images/p_255481.webp,63d1bf01c17aba3cb2da2738
@@ -789,6 +788,8 @@ sauza-tequila-silver-500ml,Sauza Tequila Silver 500ml,Tequila,"tequila, blanco",
 sauza-tres-generaciones-anejo-tequila-750ml,Sauza Tres Generaciones Anejo Tequila 750ml,Tequila,"tequila, anejo",Tres Generaciones,TRUE,74.88,https://www.liquorstore-online.com/product_images/p_186504.webp,56cad31d75627527c4c60100
 sauza-tres-generaciones-plata-tequila-750ml,Sauza Tres Generaciones Plata Tequila 750ml,Tequila,"tequila, blanco",Sauza,TRUE,84.99,https://www.liquorstore-online.com/product_images/p_256225.webp,56c2724c75627570b0740200
 sauza-tres-generaciones-reposado-tequila-750ml,Sauza Tres Generaciones Reposado Tequila 750ml,Tequila,"tequila, reposado",Sauza,TRUE,69.88,https://www.liquorstore-online.com/product_images/p_181500.webp,56cad30575627527c4c40100
+score-tequila-reposado-mexico,Score Tequila Reposado Mexico 750ml,Tequila,"tequila, reposado",Score,TRUE,195.49,https://www.liquorstore-online.com/product_images/p_259287.webp,685365 SG
+score-tequila-reposado-usa,Score Tequila Reposado USA 750ml,Tequila,"tequila, reposado",Score,TRUE,195.49,https://www.liquorstore-online.com/product_images/p_259286.webp,685369 SG
 scorpion-mezcal-anejo-5-year-750ml,Scorpion Mezcal Anejo 5 Year 750ml,Tequila,"tequila, mezcal, anejo",Mezcal,TRUE,225.99,https://www.liquorstore-online.com/product_images/p_231170.webp,5a26835f61df88374e71ccd4
 scorpion-mezcal-anejo-750ml,Scorpion Mezcal Anejo 750ml,Tequila,"tequila, mezcal, anejo",Mezcal,TRUE,89.99,https://www.liquorstore-online.com/product_images/p_186310.webp,599c57844bda77214d30a07e
 scorpion-mezcal-reposado-750ml,Scorpion Mezcal Reposado 750ml,Tequila,"tequila, mezcal, reposado",Scorpion Mezcal,TRUE,74.88,https://www.liquorstore-online.com/product_images/p_248120.webp,57aa3dad69702d1fadd1a001
@@ -879,7 +880,6 @@ tres-mujeres-tequila-anfora-reposado-750ml,Tres Mujeres Tequila Anfora Reposado 
 two-fingers-gold-tequila-750ml,Two Fingers Gold Tequila 750ml,Tequila,tequila,Two Fingers,TRUE,44.89,https://www.liquorstore-online.com/product_images/p_221706.webp,56eb934169702d5654791200
 two-fingers-white-tequila-750ml,Two Fingers White Tequila 750ml,Tequila,tequila,Two Fingers,TRUE,44.89,https://www.liquorstore-online.com/product_images/p_228728.webp,56eb918369702d56549d1000
 villa-one-reposado-tequila-750ml,Villa One Reposado Tequila 750ml,Tequila,"tequila, reposado",Villa One,TRUE,89.99,https://www.liquorstore-online.com/product_images/p_257660.webp,5d7bcb8c776fc30aa9cf28e6
-viski-tequila-copita-glass-in-green,Viski Tequila Copita Glass in Green,Tequila,tequila,Viski,TRUE,44.89,https://www.liquorstore-online.com/product_images/p_254847.webp,11440 TB
 vivir-blanco-tequila-70cl-40-abv,Vivir - Blanco Tequila 70cl 40% ABV,Tequila,"tequila, blanco",Vivir,TRUE,175.99,https://www.liquorstore-online.com/product_images/p_210262.webp,18804
 vivir-reposado-tequila-70cl-40-abv,Vivir - Reposado Tequila 70cl 40% ABV,Tequila,"tequila, reposado",Vivir,TRUE,179.99,https://www.liquorstore-online.com/product_images/p_210263.webp,18805
 vivir-vs-cafe-tequila-liqueur-70cl-30-abv,Vivir - VS Cafe Tequila Liqueur 70cl 30% ABV,Tequila,tequila,Vivir,TRUE,141.99,https://www.liquorstore-online.com/product_images/p_210255.webp,18795
