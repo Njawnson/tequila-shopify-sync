@@ -120,7 +120,7 @@ campo-azul-gran-clasico-blanco-tequila-1l,Campo Azul Gran Clasico Blanco Tequila
 campo-bravo-plata-tequila-600ml,Campo Bravo Plata Tequila 600ml,Tequila,"tequila, blanco",Campo Bravo,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_257676.webp,60d60c6594ac75482eaae649
 campo-bravo-reposado-tequila-1.75l,Campo Bravo Reposado Tequila 1.75L,Tequila,"tequila, reposado",Campo Bravo,TRUE,74.89,https://www.liquorstore-online.com/product_images/p_257175.webp,66df7afdd667153dac4a2ac4
 campo-bravo-reposado-tequila-600ml,Campo Bravo Reposado Tequila 600ml,Tequila,"tequila, reposado",Campo Bravo,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_256467.webp,60de068a36748f28831bc0fa
-campo-bravo-tequila-plata-1.75l,Campo Bravo Tequila Plata 1.75L,Tequila,"tequila, blanco",Campo Bravo,TRUE,72.89,https://www.liquorstore-online.com/product_images/p_257731.webp,602443d46a08725c7dc6d67d
+campo-bravo-tequila-plata-1.75l,Campo Bravo Tequila Plata 1.75L,Tequila,"tequila, blanco",Campo Bravo,TRUE,66.89,https://www.liquorstore-online.com/product_images/p_257731.webp,602443d46a08725c7dc6d67d
 campo-bravo-tequila-plata-1l,Campo Bravo Tequila Plata 1L,Tequila,"tequila, blanco",Campo Bravo,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_256363.webp,5e5ff2099f996d7341425c51
 campo-bravo-tequila-plata-750ml,Campo Bravo Tequila Plata 750ml,Tequila,"tequila, blanco",Campo Bravo,TRUE,46.89,https://www.liquorstore-online.com/product_images/p_257065.webp,5e1cd7f497a819617eb3fa47
 campo-bravo-tequila-reposado-750ml,Campo Bravo Tequila Reposado 750ml,Tequila,"tequila, reposado",Campo Bravo,TRUE,46.89,https://www.liquorstore-online.com/product_images/p_185953.webp,601072690ca3ec34aa6fc13a
@@ -299,11 +299,11 @@ don-julio-blanco-tequila-1l,Don Julio Blanco Tequila 1L,Tequila,"tequila, blanco
 don-julio-blanco-tequila-375ml,Don Julio Blanco Tequila 375ml,Tequila,"tequila, blanco",Don Julio,TRUE,47.89,https://www.liquorstore-online.com/product_images/p_181146.webp,564bd7c669702d5e6e1d0000
 don-julio-blanco-tequila-500ml,Don Julio Blanco Tequila 500ml,Tequila,"tequila, blanco",Don Julio,TRUE,70.89,https://www.liquorstore-online.com/product_images/p_255644.webp,57178a7d69702d2500111200
 don-julio-blanco-tequila-750ml,Don Julio Blanco Tequila 750ml,Tequila,"tequila, blanco",Don Julio,TRUE,69.89,https://www.liquorstore-online.com/product_images/p_177138.webp,565e82257562756b813f0000
+don-julio-reposado-500ml,Don Julio Reposado 500ml,Tequila,"tequila, reposado",Don Julio,TRUE,84.99,https://www.liquorstore-online.com/product_images/p_255457.webp,6080c0ee970e450f47adf4da
 don-julio-reposado-tequila-1.75l,Don Julio Reposado Tequila 1.75L,Tequila,"tequila, reposado",Don Julio,TRUE,133.99,https://www.liquorstore-online.com/product_images/p_177879.webp,57aa3db769702d1fad58a101
 don-julio-reposado-tequila-750ml,Don Julio Reposado Tequila 750ml,Tequila,"tequila, reposado",Don Julio,TRUE,74.88,https://www.liquorstore-online.com/product_images/p_180579.webp,567041d8756275441d560000
 don-julio-rosado-tequila-reposado-750ml,Don Julio Rosado Tequila Reposado 750ml,Tequila,"tequila, reposado",Don Julio,TRUE,165.46,https://www.liquorstore-online.com/product_images/p_186484.webp,639384c58bb7e35ffe3a1ce7
 don-julio-tequila-500ml,Don Julio Tequila 500ml,Tequila,tequila,Don Julio,TRUE,213.99,https://www.liquorstore-online.com/product_images/p_222306.webp,660c682f7ff43c65a0ca2609
-don-julio-tequila-reposado-10-80pf-500ml,Don Julio Tequila Reposado 10 80pf 500ml,Tequila,"tequila, reposado",Don Julio,TRUE,84.99,https://www.liquorstore-online.com/product_images/p_255457.webp,6080c0ee970e450f47adf4da
 don-julio-tequila-reposado-375ml,Don Julio Tequila Reposado 375ml,Tequila,"tequila, reposado",Don Julio,TRUE,51.89,https://www.liquorstore-online.com/product_images/p_202416.webp,564bd7c669702d5e6e1e0000
 don-ramon-punta-diamante-anejo-750ml,Don Ramon Punta Diamante Anejo 750ml,Tequila,"tequila, anejo",Don Ramon,TRUE,101.99,https://www.liquorstore-online.com/product_images/p_194018.webp,617acbfead0ea310d97d81c2
 don-ramon-reposado-tequila-750ml,Don Ramon Reposado Tequila 750ml,Tequila,"tequila, reposado",Jose Cuervo,TRUE,61.89,https://www.liquorstore-online.com/product_images/p_194026.webp,61cf47bd18e6fb75841221c9
@@ -405,6 +405,7 @@ grand-mayan-extra-aged-anejo-tequila-750ml,Grand Mayan Extra Aged Anejo Tequila 
 grand-mayan-reposado-750ml,Grand Mayan Reposado 750ml,Tequila,"tequila, reposado",Grand Mayan,TRUE,113.99,https://www.liquorstore-online.com/product_images/p_185355.webp,5bca70060937710517cbddf6
 grand-mayan-tequila-extra-anejo-750ml,Grand Mayan Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Grand Mayan,TRUE,149.49,https://www.liquorstore-online.com/product_images/p_178767.webp,59653818355d0935c14d7288
 grand-mayan-tequila-ultra-aged-anejo-750ml,Grand Mayan Tequila Ultra Aged Anejo 750ml,Tequila,"tequila, anejo",Grand Mayan,TRUE,155.49,https://www.liquorstore-online.com/product_images/p_186420.webp,62068ea3e74dd02e487eb25f
+grand-mayan-triple-distilled-silver-tequila-750ml,Grand Mayan Triple Distilled Silver Tequila 750ml,Tequila,"tequila, blanco",Grand Mayan,TRUE,112.99,https://www.liquorstore-online.com/product_images/p_258759.webp,6514c24a4ed3b8468da9180c
 grand-mayan-ultra-aged-tequila-750ml,Grand Mayan Ultra Aged Tequila 750ml,Tequila,tequila,Grand Mayan,TRUE,173.49,https://www.liquorstore-online.com/product_images/p_256070.webp,6539bc739b24fa7daa153a95
 hacien-pineapple-blanco-tequila-70cl-38-abv,Hacien - Pineapple Blanco Tequila 70cl 38% ABV,Tequila,"tequila, blanco",Hacien,TRUE,192.99,https://www.liquorstore-online.com/product_images/p_247812.jpg,23113
 hermosa-organic-anejo-tequila-750ml,Hermosa Organic Anejo Tequila 750ml,Tequila,"tequila, anejo",Hermosa,TRUE,107.99,https://www.liquorstore-online.com/product_images/p_258625.webp,61085a7e75f11860abd6376a
@@ -438,7 +439,7 @@ hotel-california-anejo-750ml,Hotel California Anejo 750ml,Tequila,"tequila, anej
 hotel-california-reposado-tequila-750ml,Hotel California Reposado Tequila 750ml,Tequila,"tequila, reposado",Hotel California,TRUE,86.99,https://www.liquorstore-online.com/product_images/p_203273.webp,5dcb1ff9e97a4629422689e2
 hotel-california-tequila-blanco-750ml,Hotel California Tequila Blanco 750ml,Tequila,"tequila, blanco",Hotel California,TRUE,68.88,https://www.liquorstore-online.com/product_images/p_183738.webp,599c49d54bda77214d3082cb
 hussons-silver-tequila-750ml,Husson's Silver Tequila 750ml,Tequila,"tequila, blanco",Husson's Silver,TRUE,65.89,https://www.liquorstore-online.com/product_images/p_184425.webp,5e500957e220be038c2dbed9
-hussongs-reposado-tequila-750ml,Hussong's Reposado Tequila 750ml,Tequila,"tequila, reposado",Hussongs Tequila,TRUE,69.88,https://www.liquorstore-online.com/product_images/p_177023.webp,5831885db75f844dd1fb3d8d
+hussongs-tequila-reposado-750ml,Hussong's Tequila Reposado 750ml,Tequila,"tequila, reposado",Hussongs Tequila,TRUE,69.88,https://www.liquorstore-online.com/product_images/p_177023.webp,5831885db75f844dd1fb3d8d
 hussongs-tequila-anejo-750ml,Hussongs Tequila Anejo 750ml,Tequila,"tequila, anejo",Hussongs Tequila,TRUE,92.98,https://www.liquorstore-online.com/product_images/p_177831.webp,5df1fa6e9732ae01600fae04
 irlandes-blanco-tequila-additive-free-750ml,Irlandes Blanco Tequila Additive Free 750ml,Tequila,"tequila, blanco",Irlandés Tequila,TRUE,90.99,https://www.liquorstore-online.com/product_images/p_257895.webp,6659240cc1013c51b5bd7abe
 jose-cuervo-day-of-the-dead-edition-tradicional-plata-tequila-50cl-38-abv,Jose Cuervo - Day Of The Dead Edition Tradicional Plata Tequila 50cl 38% ABV,Tequila,"tequila, blanco",Jose Cuervo,TRUE,132.99,https://www.liquorstore-online.com/product_images/p_211719.webp,19077
@@ -705,7 +706,7 @@ teremana-anejo-tequila-750ml,Teremana Anejo Tequila 750ml,Tequila,"tequila, anej
 teremana-blanco-tequila-1.75l,Teremana Blanco Tequila 1.75L,Tequila,"tequila, blanco",Teremana Blanco,TRUE,93.99,https://www.liquorstore-online.com/product_images/p_229340.webp,6143c8bda220571bad15955c
 teremana-blanco-tequila-1l,Teremana Blanco Tequila 1L,Tequila,"tequila, blanco",Teremana Tequila,TRUE,60.88,https://www.liquorstore-online.com/product_images/p_178082.webp,5e73cbd89f996d30e00df3aa
 teremana-blanco-tequila-375ml,Teremana Blanco Tequila 375ml,Tequila,"tequila, blanco",Teremana,TRUE,42.89,https://www.liquorstore-online.com/product_images/p_202170.webp,5ea9c1293ca4db3a4c4d2ff5
-teremana-blanco-tequila-600ml,Teremana Blanco Tequila 600ml,Tequila,"tequila, blanco",Teremana,TRUE,73.89,https://www.liquorstore-online.com/product_images/p_257114.webp,66b1eb74b4f4f855acb4192d
+teremana-blanco-tequila-600ml,Teremana Blanco Tequila 600ml,Tequila,"tequila, blanco",Teremana Tequila,TRUE,73.89,https://www.liquorstore-online.com/product_images/p_257114.webp,66b1eb74b4f4f855acb4192d
 teremana-blanco-tequila-750ml,Teremana Blanco Tequila 750ml,Tequila,"tequila, blanco",Teremana,TRUE,59.89,https://www.liquorstore-online.com/product_images/p_176999.webp,5e696e9ce220be04a4e17255
 teremana-reposado-tequila-1.75l,Teremana Reposado Tequila 1.75L,Tequila,"tequila, reposado",Teremana Reposado,TRUE,93.99,https://www.liquorstore-online.com/product_images/p_227070.webp,6143c3efdd5acf220750598b
 teremana-reposado-tequila-1l,Teremana Reposado Tequila 1L,Tequila,"tequila, reposado",Teremana Reposado,TRUE,60.89,https://www.liquorstore-online.com/product_images/p_180792.webp,5e73cbd89f996d30e00df3b9
