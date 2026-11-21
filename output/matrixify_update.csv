@@ -1,6 +1,7 @@
 Handle,Title,Type,Tags,Vendor,Published,Variant Price,Image Src,Variant SKU
 100-anos-tequila-blanco-mixto-750ml,100 Anos Tequila Blanco Mixto 750ml,Tequila,"tequila, blanco",100 Anos,TRUE,46.88,https://www.liquorstore-online.com/product_images/p_184118.webp,5cfa7c5f54f64026010dbd67
 100-anos-tequila-reposado-750ml,100 Anos Tequila Reposado 750ml,Tequila,"tequila, reposado",100 Años,TRUE,46.89,https://www.liquorstore-online.com/product_images/p_177806.webp,56f46c2c69702d7cba301300
+123-diablito-rojo-extra-anejo-tequila-750ml,123 Diablito Rojo Extra Anejo Tequila (750ml),Tequila,"tequila, extra-anejo",123 Tequila,TRUE,377.99,https://www.liquorstore-online.com/product_images/p_263461.webp,99.45.885.88
 123-organic-tequila-anejo-375ml,123 Organic Tequila Anejo (375ml),Tequila,"tequila, anejo",123 Tequila,TRUE,54.89,https://www.liquorstore-online.com/product_images/p_263445.webp,122005
 123-organic-tequila-anejo-750ml,123 Organic Tequila Anejo (750ml),Tequila,"tequila, anejo",123 Tequila,TRUE,119.99,https://www.liquorstore-online.com/product_images/p_261817.webp,144835
 123-organic-tequila-blanco-375ml,123 Organic Tequila Blanco (375ml),Tequila,"tequila, blanco",123 Tequila,TRUE,44.89,https://www.liquorstore-online.com/product_images/p_263444.webp,8979856
@@ -77,7 +78,7 @@ adictivo-repsodao-tequila-1.75l,Adictivo Repsodao Tequila 1.75L,Tequila,tequila,
 adictivo-tequila-extra-anejo-750ml,Adictivo Tequila Extra Anejo 750ml,Tequila,"tequila, extra-anejo",Adictivo Tequila,TRUE,155.49,https://www.liquorstore-online.com/product_images/p_185012.webp,5b6db9d78f587645dac90a84
 alma-del-jaguar-blanco-tequila-750ml,Alma Del Jaguar Blanco Tequila 750ml,Tequila,"tequila, blanco",Alma Del Jaguar,TRUE,68.88,https://www.liquorstore-online.com/product_images/p_230444.webp,64557716f48ccd1d0cd5b01c
 alma-del-jaguar-nocturna-blanco-750ml,Alma Del Jaguar Nocturna Blanco 750ml,Tequila,"tequila, blanco",Alma Del Jaguar,TRUE,94.99,https://www.liquorstore-online.com/product_images/p_230440.webp,6679d374f75f6442bbd16499
-alma-del-jaguar-reposado-tequila-750ml,Alma Del Jaguar Reposado Tequila 750ml,Tequila,"tequila, reposado",Alma Del Jaguar,TRUE,86.92,https://www.liquorstore-online.com/product_images/p_230441.webp,6455825d180210136aca4db6
+alma-del-jaguar-reposado-tequila-750ml,Alma Del Jaguar Reposado Tequila 750ml,Tequila,"tequila, reposado",Alma,TRUE,86.92,https://www.liquorstore-online.com/product_images/p_230441.webp,6455825d180210136aca4db6
 alma-del-jaguar-tequila-anejo-750ml,Alma del Jaguar Tequila Anejo 750ml,Tequila,"tequila, anejo",Alma,TRUE,106.98,https://www.liquorstore-online.com/product_images/p_230438.webp,66b71b2540ad1f53e7b1fb65
 almatitan-anejo-tequila-750ml,Almatitan Anejo Tequila (750ml),Tequila,"tequila, anejo",Addition,TRUE,105.99,https://www.liquorstore-online.com/product_images/p_263740.webp,197568
 almatitan-blanco-tequila-750ml,Almatitan Blanco Tequila (750ml),Tequila,"tequila, blanco",Addition,TRUE,74.89,https://www.liquorstore-online.com/product_images/p_263374.webp,09786
@@ -851,7 +852,7 @@ teremana-blanco-tequila-600ml,Teremana Blanco Tequila 600ml,Tequila,"tequila, bl
 teremana-blanco-tequila-750ml,Teremana Blanco Tequila 750ml,Tequila,"tequila, blanco",Teremana,TRUE,59.89,https://www.liquorstore-online.com/product_images/p_176999.webp,5e696e9ce220be04a4e17255
 teremana-reposado-tequila-1.75l,Teremana Reposado Tequila 1.75L,Tequila,"tequila, reposado",Teremana Reposado,TRUE,93.99,https://www.liquorstore-online.com/product_images/p_227070.webp,6143c3efdd5acf220750598b
 teremana-reposado-tequila-1l,Teremana Reposado Tequila 1L,Tequila,"tequila, reposado",Teremana Reposado,TRUE,60.89,https://www.liquorstore-online.com/product_images/p_180792.webp,5e73cbd89f996d30e00df3b9
-teremana-reposado-tequila-600ml,Teremana Reposado Tequila 600ml,Tequila,"tequila, reposado",Teremana,TRUE,93.99,https://www.liquorstore-online.com/product_images/p_256094.webp,66b1ecca4b0f364a8c674ad7
+teremana-reposado-tequila-600ml,Teremana Reposado Tequila 600ml,Tequila,"tequila, reposado",Teremana Tequila,TRUE,93.99,https://www.liquorstore-online.com/product_images/p_256094.webp,66b1ecca4b0f364a8c674ad7
 teremana-reposado-tequila-750ml,Teremana Reposado Tequila 750ml,Tequila,"tequila, reposado",Teremana,TRUE,61.89,https://www.liquorstore-online.com/product_images/p_178479.webp,5e696e9de220be04a4e17262
 tesla-anejo-tequila-75cl-40-abv,Tesla - Anejo Tequila 75cl 40% ABV,Tequila,"tequila, anejo",Tesla,TRUE,2737.99,https://www.liquorstore-online.com/product_images/p_221879.webp,20767
 tesoro-5-blanco-tequila-750ml,Tesoro #5 Blanco Tequila (750ml),Tequila,"tequila, blanco",El Tesoro Tequila,TRUE,49.89,https://www.liquorstore-online.com/product_images/p_262206.webp,178753
